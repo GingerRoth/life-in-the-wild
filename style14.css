@@ -1,0 +1,121 @@
+body{
+	margin:0px;
+}
+
+
+.container {display: flex;
+	        flex-wrap: wrap;
+	        justify-content: center;
+
+}
+
+h1{
+	font-family: fantasy;
+	font-size: 3em;
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink;
+	width:400px;
+	text-align: center;
+	box-shadow: 4px 4px 5px #888888;
+	margin-top: 10px
+}
+
+img{
+    width: 450px;
+    height: 300px;
+    margin:10px;
+    transition: all 1s;
+
+}
+
+img:hover{
+	transform: scale(1.1);
+}
+
+/* important note about responsive UI
+
+If you go the the developer page of your website on 
+Google and hit the square right before elements. It has
+a square in a square. Then look at what it looks like.
+And there is a drop down menu at the top of what it shows you
+that is to see what it looks like on different kinds of 
+phones including the iphone. That is to see how nicely your
+stuff looks on everything that it will be displayed on.
+So it looking nice on everything by being a responsive UI
+should be top priority. 
+
+*/
+
+
+
+
+/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+He says this is all you need to work with the flexbox 
+
+One way to get really good at Flexbox is the play 
+Flexbox Froggy
+It is flexboxfroggy.com
+
+
+So if you go to w3schools.com and look at 
+CSS Browser Support Reference
+
+it shows you what browsers support what you are doing
+it also shows prefexes. 
+They are what you need to use to make sure what you did
+shows up on the browser that they have. 
+
+Ex
+
+to do box shadow a few years ago I had to do this:
+
+
+h1{
+	font-family: fantasy;
+	font-size: 3em;
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink;
+	width:400px;
+	text-align: center;
+	-moz-box-shadow: 4px 4px 5px #888888;
+	-ms-box-shadow: 4px 4px 5px #888888;
+	-webkit-box-shadow: 4px 4px 5px #888888; for safari and chrome
+	-o-box-shadow:4px 4px 5px #888888; which made it work on the opera
+	box-shadow: 4px 4px 5px #888888;
+
+	}
+
+	and then you still had to mention the box shadow without the prefex
+	at the bottom. So it would look like this:
+
+
+
+	h1{
+	font-family: fantasy;
+	font-size: 3em;
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink;
+	width:400px;
+	text-align: center;
+	-moz-box-shadow: 4px 4px 5px #888888;
+	-ms-box-shadow: 4px 4px 5px #888888;
+	-webkit-box-shadow: 4px 4px 5px #888888; 
+	-o-box-shadow:4px 4px 5px #888888; 
+	box-shadow: 4px 4px 5px #888888;
+	}
+
+
+And the website address they used to check is
+
+https://www/3schools.com/cssref/css3_browsersupport.asp
+
+
+And another great reference is can I use . com
+
+http://caniuse.com/#
+
+this also shows if what you use is supported by a bunch of 
+browsers including the smart phones.
+
+
+*/
